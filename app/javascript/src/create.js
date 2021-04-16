@@ -1,8 +1,6 @@
 import { createHTML } from './index'
 export default function create(e) {
-    console.log(createHTML)
     const post = createObj(e.target)
-
     fetch(e.target.action, {
         method: e.target.method,
         headers: {
